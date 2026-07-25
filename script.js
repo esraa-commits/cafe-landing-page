@@ -1,8 +1,10 @@
 import {menu} from '/menu.js';
 
-const homeBtn = document.getElementById("home-page-button");
-const menuBtn = document.getElementById("menu-button");
-const aboutBtn = document.getElementById("about-us-button");
+document.addEventListener('DOMContentLoaded', () => {
+  
+  const homeBtn = document.getElementById("home-page-button");
+  const menuBtn = document.getElementById("menu-button");
+  const aboutBtn = document.getElementById("about-us-button");
 
 function showPage(id){
   document.querySelectorAll("main section").forEach(section => {
@@ -33,8 +35,6 @@ menu.forEach((item) => {
           </div>
   `
 });
-
-document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.menu-items-container').innerHTML = html;
 });
 
