@@ -1,4 +1,4 @@
-import {menu} from '/menu.js';
+import {menu} from './menu.js';
 
 document.addEventListener('DOMContentLoaded', () => {
 
