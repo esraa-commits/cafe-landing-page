@@ -1,7 +1,7 @@
 import {menu} from '/menu.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  
+
   const homeBtn = document.getElementById("home-page-button");
   const menuBtn = document.getElementById("menu-button");
   const aboutBtn = document.getElementById("about-us-button");
