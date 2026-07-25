@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 125%;
+  color:aliceblue;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(96, 68, 38);
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150%;
+}
+
+.side-bar {
+  position: fixed;
+  top: 18%;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgb(101, 87, 71);
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-bar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 18%;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.side-bar button:hover {
+  background-color: rgb(181, 170, 156);
+}
+
+.side-bar button:active {
+  background-color: rgb(221, 208, 190);
+}
